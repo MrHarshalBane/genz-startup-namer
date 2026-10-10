@@ -4,5 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/genz-startup-namer/',
   plugins: [react(), tailwindcss()],
 })
+
